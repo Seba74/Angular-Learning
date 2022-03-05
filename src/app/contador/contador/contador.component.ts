@@ -8,7 +8,8 @@ import { Component } from "@angular/core";
         <button (click)="acumular(-base)"> - 5</button>
         <span> {{numero}} </span>
         <button (click)="acumular(base)"> + 5</button>
-    `
+    `,
+    styleUrls: ['contador.component.scss'] 
 })
 export class ContadorComponent {
     title: string =  'Contador App';
